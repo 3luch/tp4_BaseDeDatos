@@ -13,6 +13,7 @@ app.get("/", (_, res) => {
     res.send("SpoTICfy API working!");
 });
 
+
 //artistas:
 
     app.get("/artistas", artistas.getartistas);
